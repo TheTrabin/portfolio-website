@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MMcLeod - Photography and Art</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Photography and Art</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html">Web Development</a></li>
+						<li><a href="photoart.html" class="active">Photography and Art</a></li>
+						<li><a href="gamedev.html">Game Development</a></li>
+
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Photography and Art</h1>
+							<p>This section is currently under construction.</p>
+							<p>However, there are a few examples below.</p>
+						</div>
+					</section>
+			</div>
+
+			<section>
+				<div>
+				 <center><h2>Photography</h2> 
+				 	<img class="photo" src="images/DCFC0005.JPG">
+				 	<img class="photo" src="images/DCFC0046.jpg">
+					<img class="photo" src="images/hopper.jpg" width="600px">
+					<img class="photo" src="images/Kitteh.png" width="600px">  
+					<img class="photo" src="images/Kalisleep.jpg" width="600px">  
+					<img class="photo" src="images/mantis.jpg" width="600px">
+					<img class="photo" src="images/mountain.jpg" width="600px">
+					<img class="photo" src="images/mou_0009.JPG" width="600px">
+					<img class="photo" src="images/Pic010.JPG" width="600px">
+					<img class="photo" src="images/Rainbowring.jpg" width="600px">
+					<img class="photo" src="images/snail.jpg" width="600px">
+					<img class="photo" src="images/wha_0002.JPG" width="600px">
+
+					<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+					<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button></center>
+				</div>
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+	
+	function plusDivs(n) {
+	  showDivs(slideIndex += n);
+	}
+	
+	function showDivs(n) {
+	  var i;
+	  var x = document.getElementsByClassName("photo");
+	  if (n > x.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = x.length}
+	  for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";  
+	  }
+	  x[slideIndex-1].style.display = "block";  
+	}
+	</script>
+	
+			</section>
+			<section>
+				<div>
+			<center><h2>Art</h2>
+				
+				<img class="art" src="images/bggreen.jpg" width="600px">
+				<img class="art" src="images/Cup.JPG" width="600px">
+				<img class="art" src="images/LOGO3.png" width="600px">
+				<img class="art" src="images/M5 (1).JPG" width="600px">
+				<img class="art" src="images/moonrose.JPG" width="600px">
+				<img class="art" src="images/twist2.JPG" width="600px">
+				<img class="art" src="images/Twisted.JPG" width="600px">
+				<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+				<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+			</center></div>
+				<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+					
+					function plusDivs(n) {
+					  showDivs(slideIndex += n);
+					}
+					
+					function showDivs(n) {
+					  var i;
+					  var x = document.getElementsByClassName("art");
+					  if (n > x.length) {slideIndex = 1}
+					  if (n < 1) {slideIndex = x.length}
+					  for (i = 0; i < x.length; i++) {
+						x[i].style.display = "none";  
+					  }
+					  x[slideIndex-1].style.display = "block";  
+					}
+					</script>
+			
+		</section>
+		<!-- Footer -->
+		<footer id="footer" class="wrapper style1-alt">
+			<div class="inner">
+				<ul class="menu">
+					<li> Site Deployment by Michael McLeod. Use of Modified Template. &copy; All rights reserved.</li><li>Original Template Design: Hyperspace from <a href="http://html5up.net">HTML5 UP</a></li>
+		<p> <center>All images used on this page are Original &copy;Michael McLeod Circa 2019 - 2020</center></p>
+				</ul>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
